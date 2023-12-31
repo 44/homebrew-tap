@@ -6,7 +6,7 @@ class SpiceAgent < Formula
   homepage "https://github.com/44/spice"
   url "https://github.com/44/spice.git", branch: "main"
   license "MIT"
-  version "0.0.8"
+  version "0.0.9"
 
   def install
     libexec.install Dir["agent"]
