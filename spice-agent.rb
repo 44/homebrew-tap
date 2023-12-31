@@ -6,10 +6,10 @@ class SpiceAgent < Formula
   homepage "https://github.com/44/spice"
   url "https://github.com/44/spice.git", branch: "main"
   license "MIT"
-  version "0.0.1"
+  version "0.0.2"
 
   def install
-    bin.install "spice-agent"
+    bin.install "agent/spice-agent"
   end
 
 end
