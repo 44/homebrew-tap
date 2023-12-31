@@ -4,7 +4,7 @@
 class SpiceAgent < Formula
   desc "Agent scripts for Spice"
   homepage "https://github.com/44/spice"
-  url "https://github.com/44/spice.git"
+  url "https://github.com/44/spice.git", branch: "main"
   license "MIT"
   version "0.0.1"
 
